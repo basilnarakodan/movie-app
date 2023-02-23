@@ -2,6 +2,7 @@ import React from "react";
 import { TouchableOpacity, Text, StyleSheet, Dimensions } from "react-native";
 import Colors from "../constants/Colors";
 import { useState } from "react";
+import Fonts from "../constants/Fonts";
 
 const {height,width}=Dimensions.get("screen");
 
@@ -42,6 +43,7 @@ const styles=StyleSheet.create({
     genreText:{
         fontSize:13,
         color:Colors.ACTIVE,
+        fontFamily:Fonts.BOLD,
     },
 });
 
